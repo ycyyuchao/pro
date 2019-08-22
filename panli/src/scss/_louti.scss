@@ -1,0 +1,71 @@
+ #loutinav {
+        width: 61px;
+        position: fixed;
+        top: 220px;
+        right: 40px;
+        border: 1px solid #ddd;
+        z-index:99;
+    }
+
+    #loutinav ul li {
+        width: 41px;
+        height: 41px;
+        border-bottom: 1px solid #DDDDDD;
+        font-size: 12px;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        cursor: pointer;
+        padding: 10px;
+        background: #f8f8f8;
+       
+    }
+
+    .louti li span {
+        width: 41px;
+        height: 41px;
+    }
+    #loutinav .first span{
+        background:url(../images/online-kefu.png) no-repeat;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+    #loutinav .second span{
+        background:url(../images/online-phone.png) no-repeat;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+    #loutinav .second .xiazaiapp{
+        top: 0px;
+        display: none; 
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 60px;
+        img{
+            width:100%;
+            border: 1px solid #DDDDDD;
+        }
+    }
+     
+    #loutinav .third span{
+        background:url(../images/online-black.png) no-repeat;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+    #loutinav .last {
+        padding:0 10px;
+        height: 29px;
+    }
+    #loutinav a{
+        font-size: 14px;
+        color: #ff6e6e;
+        line-height: 18px;
+        display: none;
+    }
+    .louticlass{
+        background:red;
+    }

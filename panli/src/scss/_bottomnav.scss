@@ -1,0 +1,41 @@
+$center_wh:1200px;
+$center:0 auto;
+$l:left;
+.bottomnav{
+	background: #f8f8f8;
+	text-align: center;
+	.center{
+		width: $center_wh;
+		margin: $center;
+		.nav {
+			li{
+				float:$l;
+				width:150px;
+				height: 38px;
+				position: relative;
+			}
+			.nav_1{
+				color: #fff;
+				background-color: #ff6e6e;
+			}
+			li:hover a{
+				color: #fff;
+				background-color: #ff6e6e;
+			}
+			a{
+				color: #444;
+				line-height: 38px;
+				display: block;
+			}
+			.new{
+				top: -9px;
+				right: 25px;
+				width: 37px;
+				height: 21px;
+				background: url(../images/new-sm.png) center center no-repeat;
+				position: absolute;
+				display: block;
+			}
+		}
+	}
+}

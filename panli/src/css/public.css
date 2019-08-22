@@ -1,0 +1,262 @@
+.more {
+  position: relative;
+  margin-bottom: 10px;
+}
+.more a {
+  text-align: right;
+  padding-right: 11px;
+  font-size: 14px;
+  color: #7aabe3;
+  line-height: 14px;
+  display: block;
+  right: 0;
+  top: 30px;
+}
+
+.forget a {
+  float: right;
+  font-size: 16px;
+  color: #81ACE3;
+  text-decoration: underline;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, input {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  border: 0;
+}
+
+body {
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#login {
+  width: 100%;
+}
+
+.center {
+  width: 960px;
+  margin: 0 auto;
+}
+.center .top {
+  height: 85px;
+  margin-top: 5px;
+}
+.center .content {
+  margin-top: 10px;
+}
+.center .logo {
+  margin-top: 7px;
+  float: left;
+}
+.center .hy {
+  float: left;
+  border-left: #ddd solid 2px;
+  margin: 12px 0 0 15px;
+  padding: 11px 0 2px 15px;
+  height: 44px;
+  display: inline;
+}
+.center .top_right {
+  float: right;
+  font-size: 12px;
+  color: #bbb;
+  margin: 10px 10px 0 0;
+}
+.center .top_right a {
+  color: #bbb;
+}
+.center .top_right a:hover {
+  color: #f90;
+  text-decoration: underline;
+}
+.center .left {
+  float: left;
+  width: 500px;
+}
+.center .right {
+  float: left;
+  margin: 30px 0 0 90px;
+  width: 360px;
+}
+.center .right .righttop {
+  padding-bottom: 25px;
+  position: relative;
+}
+.center .right .facebook, .center .right .wechat {
+  height: 44px;
+  border-radius: 4px;
+  line-height: 44px;
+  position: relative;
+  padding-left: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+.center .right .facebook i, .center .right .wechat i {
+  background: url(../images/Facebook&Wechat.png) no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  z-index: 99;
+  left: 10px;
+  top: 6px;
+}
+.center .right .facebook {
+  float: left;
+  width: 112px;
+  background: #687eb7;
+}
+.center .right .facebook span {
+  color: #fff;
+}
+.center .right .facebook i {
+  background-position: 0 0;
+}
+.center .right .wechat {
+  float: right;
+  width: 130px;
+  background: #8bc43f;
+}
+.center .right .wechat span {
+  color: #fff;
+}
+.center .right .wechat i {
+  background-position: -38px 0;
+}
+.center .right p {
+  margin-top: 30px;
+}
+.center .regtit {
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+  padding: 25px 0 28px;
+  height: 20px;
+}
+.center .regtit h2 {
+  float: left;
+  font-size: 20px;
+  color: #000;
+  line-height: 20px;
+  padding-left: 10px;
+}
+.center .regtit a {
+  float: right;
+  color: #7aabe3;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.center .input {
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 14px;
+  width: 360px;
+  height: 40px;
+}
+.center .input input {
+  height: 38px;
+  width: 334px;
+  line-height: 40px;
+  background: #fcfcfc;
+  color: #000000;
+  padding: 0 12px;
+  border: solid 1px #CCCCCC;
+  border-radius: 4px;
+}
+.center .rightbottom {
+  margin-top: 30px;
+}
+.center .rightbottom input {
+  display: block;
+  height: 44px;
+  width: 100%;
+  background: #f69922;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+label {
+  color: red;
+  font-weight: bold;
+  padding-right: 1em;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.success {
+  padding-left: 16px;
+}
+
+/*# sourceMappingURL=public.css.map */

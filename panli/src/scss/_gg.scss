@@ -1,0 +1,39 @@
+$center_width:1200px;
+html,body{
+	height:100%;
+	width:100%;
+}
+#gg{
+	width:100%;
+	height: 80px; 
+	background: #E0EFF5 url(http://img.panlidns.com/CMS/bottomads/305/backgroundimage.jpg) repeat-x 0 0px;
+	.center{
+		height: 80px; 
+		width: $center_width; 
+		margin:0 auto; 
+		position: relative;
+	}
+	.gg-img{
+		cursor:pointer;
+		display: block; 
+		height: 80px; 
+		width: $center_width; 
+		img{
+			display: block;
+		}
+	}	
+	.close{
+		background:url(http://img.panlidns.com/CMS/bottomads/304/close.gif) no-repeat center; 
+		height: 16px;
+		width: 16px;
+		position: absolute; 
+		right:0px; 
+		top: 5px; 
+		z-index: 20; 
+		display: block; 
+		padding: 0 0 0 2px;
+	}	
+	
+}
+
+

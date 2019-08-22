@@ -1,0 +1,149 @@
+$center_wh:1220px;
+$center:0 auto;
+
+.content{
+	.center{
+		width:$center_wh;
+		margin:$center;
+	}
+	.tuijian{
+		div{
+			position:relative;
+			float:left;
+			a{
+			    display: block;
+			    overflow: hidden;
+			    margin: 10px 10px 0 0;
+			}
+		}
+		p{
+			float: left;
+			margin: 10px 10px 0 0
+		}
+		img{
+			position: relative;
+		}
+	}
+	.main{
+		p{
+			width:232px;
+			height:960px;
+			float:left;
+			//
+			a{
+				width:232px;
+				height:320px;
+				position: relative;
+				display: block;
+				margin-right: 10px;
+			}
+			img{
+				padding: 10px 0 10px 0;
+				width:232px;
+				position: absolute;
+				left:0;
+				top:0;
+			}
+			.last img{
+				height:330px;
+			}
+		}
+		div{
+			float:left;
+			width:242px;
+			height:320px;
+			margin: 0 5px 10px 0;
+			position:relative;
+			a{
+			    display: block;
+			    overflow: hidden;
+			}
+			img{
+				width:232px;
+				padding: 10px 0 0 10px;
+				position: absolute;
+				left:0;
+				top:0;
+			}
+		}	
+	}	
+}
+.story{
+	.storybox{
+		width: 900px;
+		overflow: hidden;
+		float: left;
+		ul li{
+			float: left;
+			width: 270px;
+			display: inline;
+			margin-right: 20px;
+		}
+		li a{
+			font-size: 14px;
+			color: #444;
+			line-height: 30px;
+		}
+	}
+	.comment{
+		float: left;
+		width:320px;
+		.comment_top span{
+			border-left: solid #ff6e6e 6px;
+			height: 18px;
+			line-height: 20px;
+			font-size: 16px;
+			color: #444;
+			padding-left: 8px;
+		}
+		.comment_top a{
+			font-size: 14px;
+			color: #999;
+			float: right;
+		}
+		.comment_list{
+			margin-top: 5px;
+		}
+		.comment_list li{
+			margin-top: 10px;
+			height: 36px;
+			position:relative;
+		}
+		.comment_list li  .spanimg{
+			float: left;
+			margin-right: 8px;
+			position: relative;
+		}
+		.comment_list li span img{
+			width: 36px;
+			height: 36px;
+			border-radius: 50px;
+		}
+		.comment_list li div{
+			width: 282px;
+			line-height: 16px;
+		}
+		.comment_list li div span{
+			color: #444;
+			font-size: 14px;
+			display: block;
+			height: 16px;
+			text-overflow: ellipsis;
+		}
+		.comment_list li div p span{
+			color: #999;
+			font-size: 12px;
+			line-height: 20px;
+			display: block;
+
+		}
+		.comment_list li div p .fl{
+			float: left;
+
+		}
+		.comment_list li div p .fr{
+			float: right;
+
+		}
+	}
+}

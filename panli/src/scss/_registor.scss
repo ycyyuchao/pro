@@ -1,0 +1,180 @@
+$l:left;
+$r:right;
+$small:12px;
+$big:14px;
+$wh:100%;
+$hg:100%;
+$center_wh:960px;
+$center:0 auto;
+html,body{
+	width:$wh;
+	height:$hg;
+}
+#login{
+	width:$wh;
+}
+.center{
+	width:$center_wh;
+	margin:$center;
+	.top{
+		height: 85px;
+		margin-top: 5px;
+	}
+	.content{
+		margin-top: 10px
+	}
+	.logo{
+		margin-top: 7px;
+		float: $l;
+
+	}
+	.hy{
+		float: $l;
+		border-left: #ddd solid 2px;
+		margin: 12px 0 0 15px;
+		padding: 11px 0 2px 15px;
+		height: 44px;
+		display: inline
+	}
+	.top_right{
+		float:$r;
+		font-size:$small;
+		color:#bbb;
+		margin: 10px 10px 0 0;
+		a{
+			color:#bbb;
+		}
+		a:hover{
+			color:#f90;
+			text-decoration: underline;
+		}
+	}
+	.left{
+		float:$l;
+		width:500px;
+	}
+	.right{
+		float: left;
+		margin: 30px 0 0 90px;
+		width: 360px;
+		.righttop{
+			padding-bottom: 25px;
+			
+			position:relative;
+		}
+		%cc{
+			height: 44px;
+			border-radius: 4px;
+			line-height: 44px;
+			position: relative;
+			padding-left: 50px; 
+			cursor: pointer;
+			font-size: $big;
+			color:#fff;
+		}
+		%i{
+			background: url(../images/Facebook&Wechat.png) no-repeat;    		
+			width: 32px;
+			height: 32px;
+			position: absolute;
+			z-index: 99;
+			left: 10px;
+			top: 6px;
+
+		}
+		.facebook{
+			float: $l;
+			width:112px;
+			background:#687eb7;
+			span{
+				color:#fff;
+			}
+			@extend %cc;
+			i{
+				@extend %i;
+				background-position: 0 0;
+				
+			}
+		}
+		.wechat{
+			float:$r;
+			width:130px;
+			background:#8bc43f;
+			span{
+				color:#fff;
+			}
+			@extend %cc;
+			i{
+				@extend %i;
+				background-position: -38px 0;
+			}
+		}
+		p{
+			margin-top: 30px;
+		}
+	}
+	.regtit{
+		border-top:1px solid #ddd;
+		overflow: hidden;
+		padding: 25px 0 28px;
+		height: 20px;
+		h2{
+			float: $l;
+			font-size: 20px;
+			color: #000;
+			line-height: 20px;
+			padding-left: 10px;
+		}
+		a{
+			float: $r;
+			color: #7aabe3;
+			font-size: $big;
+			padding-right: 10px;
+		}
+	}
+	.input {
+		position: relative;
+		margin-bottom: 30px;
+		font-size: $big;
+		width: 360px;
+		height:40px;
+		input{
+			//border-color:#ff999a;
+			height: 38px;
+			width: 334px;
+			line-height: 40px;
+			background: #fcfcfc;
+			color: #000000;
+			padding: 0 12px;
+			border: solid 1px #CCCCCC;
+			border-radius: 4px;	
+		}
+		
+	}
+	.rightbottom{
+		margin-top: 30px;
+		input{
+			display: block;
+			height: 44px;
+			width: 100%;
+			background: #f69922;
+			line-height: 44px;
+			text-align: center;
+			color: #FFFFFF;
+			border-radius: 4px;
+			font-size: 18px;
+			text-decoration: none;
+		}
+	}	
+}
+label{ 
+	color:red;
+	font-weight: bold; 
+	padding-right: 1em; 
+	height:20px;
+	line-height: 20px; 
+	font-size: 12px;
+}
+.success {
+	padding-left: 16px;
+}
