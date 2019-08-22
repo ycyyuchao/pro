@@ -1,0 +1,1 @@
+global.address = 'http://localhost:3000';

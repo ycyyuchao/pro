@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: demo-1.0.0.exe
+    sha512: kkhH7K+MsIatkyTf3i9HrKEVLLEPtspu6nuM/ZHtALN7hq++qN0THpyy7yi+SlDmpOz7NB7xGzhOxRtJbVLNxw==
+    size: 38916387
+path: demo-1.0.0.exe
+sha512: kkhH7K+MsIatkyTf3i9HrKEVLLEPtspu6nuM/ZHtALN7hq++qN0THpyy7yi+SlDmpOz7NB7xGzhOxRtJbVLNxw==
+releaseDate: '2019-06-19T00:40:01.614Z'

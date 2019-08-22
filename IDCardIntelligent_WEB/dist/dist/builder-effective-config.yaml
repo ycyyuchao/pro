@@ -1,0 +1,22 @@
+directories:
+  output: dist
+  buildResources: build
+electronVersion: 1.8.4
+win:
+  requestedExecutionLevel: highestAvailable
+  target:
+    - target: nsis
+      arch:
+        - x64
+appId: demo
+artifactName: 'demo-${version}-${arch}.${ext}'
+nsis:
+  artifactName: 'demo-${version}-${arch}.${ext}'
+extraResources:
+  - from: ./static/xxxx/
+    to: app-server
+    filter:
+      - '**/*'
+publish:
+  - provider: generic
+    url: 'http://xxxxx/download/'
